@@ -5,6 +5,7 @@ deviceName: null
 packDir: null
 srcDirs:
   - cube
+  - src
 virtualFolder:
   name: <virtual_root>
   files: []
@@ -24,6 +25,7 @@ targets:
         - cube/Drivers/CMSIS/Include
         - cube/Drivers/STM32F4xx_HAL_Driver/Inc
         - cube/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+        - inc
       libList: []
     excludeList: []
     toolchain: GCC
