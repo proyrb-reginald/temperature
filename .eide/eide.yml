@@ -5,7 +5,8 @@ deviceName: null
 packDir: null
 srcDirs:
   - cube
-  - src
+  - app
+  - driver
 virtualFolder:
   name: <virtual_root>
   files: []
@@ -25,7 +26,9 @@ targets:
         - cube/Drivers/CMSIS/Include
         - cube/Drivers/STM32F4xx_HAL_Driver/Inc
         - cube/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
-        - inc
+        - driver/ads1118
+        - app
+        - driver/mcp4728
       libList: []
     excludeList: []
     toolchain: GCC
